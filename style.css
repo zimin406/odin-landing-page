@@ -68,4 +68,39 @@
     font-weight: bold;
 }
 
+/* section-1 */
+.section-1 {
+    padding: 20px 0px 50px;
+}
+.section-1-heading {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
 
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.card {
+    width: 180px;
+    text-align: center;
+}
+
+.card-image-container {
+    width: 160px;
+    height: 160px;
+    border: #3882F6 solid 4px;
+    border-radius: 20px;
+    margin: 0px auto;
+}
+
+.card-subtext {
+    width: 160px;
+    text-align: center;
+    margin: 5px auto 0px;
+    color: #1F2937;
+}
