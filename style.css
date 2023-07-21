@@ -1,0 +1,15 @@
+/* header */
+.header {
+    background-color: #1F2937;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-links-container {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
