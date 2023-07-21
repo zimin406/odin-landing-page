@@ -2,7 +2,7 @@
 .header {
     background-color: #1F2937;
 
-    padding: 40px 120px 80px;
+    padding: 40px 14% 80px;
 }
 
 .navbar {
@@ -57,7 +57,7 @@
     height: auto;
 }
 
-.sign-up-button-1 {
+.sign-up-button {
     background-color: #3882F6;
     color: #F9FAF8;
 
@@ -124,3 +124,31 @@
     font-weight: 700;
 }
 
+/* section-3 */
+.section-3 {
+    padding: 60px 20%;
+}
+.sign-up {
+    background-color: #3882F6;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    border-radius: 8px;
+}
+.sign-up-heading {
+    font-size: 20px;
+    font-weight: 700;
+    color: #F9FAF8;
+    margin: 0px 0px 5px;
+}
+.sign-up-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px;
+}
+
+.sign-up > button {
+    background-color: none;
+    border: 2px solid #F9FAF8;
+}
